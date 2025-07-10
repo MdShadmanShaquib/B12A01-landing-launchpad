@@ -33,6 +33,13 @@
     font-weight: 500;
 }
 
+.btn-primary:hover{
+    background-color: rgb(233, 127, 5);
+    color: black;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 /*body*/
 body {
     background-color: rgba(211, 230, 233, 0.247);
@@ -242,7 +249,8 @@ body {
 }
 
 .info-input input {
-    padding: 20px 271px 20px 32px;
+    padding: 20px 0px 20px 32px;
+    width: 497px;
     background-color: white;
     border: 0.5px solid #7575754d;
     border-radius: 10px;
@@ -252,7 +260,14 @@ body {
 }
 
 #large-message {
-    padding: 20px 271px 85px 32px;
+    padding: 20px 0px 85px 32px;
+    border: 0.5px solid #7575754d;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 497px;
 }
 
 .info-input label {
@@ -260,7 +275,7 @@ body {
 }
 
 #info-btn {
-    padding: 20px 228px;
+    padding: 19px 221px;
     font-size: 16px;
 }
 
